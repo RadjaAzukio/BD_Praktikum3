@@ -1,7 +1,7 @@
 # BD_Praktikum3
 ```
 1. Lakukan penambahan data pada tabel mahasiswa dengan mengisi kd_ds yang belum ada pada data dosen. 
-2. Hapus satu record dat pada tabel dosen yang telah dirjuk pada tabel mahasiswa. 
+2. Hapus satu record dat pada tabel dosen yang telah dirujuk pada tabel mahasiswa. 
 3. Ubah mode menjadi ON UPDATE CASCADE ON DELETE RESTRICT. 
 4. Lakukan perubahan data pada tabel dosen (kd_ds). 
 5. Lakukan penghapusan data pada tabel dosen, 
@@ -13,7 +13,7 @@
 ![image](https://github.com/RadjaAzukio/BD_Praktikum3/assets/115551911/fdcc86aa-7108-4065-9bfc-c89b0072642c)
 ![image](https://github.com/RadjaAzukio/BD_Praktikum3/assets/115551911/b8bea4ed-223e-43de-b3e3-8c24ae568fdc)
 
-2. Hapus satu record dat pada tabel dosen yang telah dirjuk pada tabel mahasiswa
+2. Hapus satu record dat pada tabel dosen yang telah dirujuk pada tabel mahasiswa
 ![image](https://github.com/RadjaAzukio/BD_Praktikum3/assets/115551911/1a6608f8-497c-451a-97de-136c59bcdb1d)
 
 3. Ubah mode menjadi ON UPDATE CASCADE ON DELETE RESTRICT
@@ -44,4 +44,4 @@
 ```
 - RESTRICT dan CASCADE adalah aturan refential intrgrity Yang dapat diterapkan pada kunci asing yang basis data relasional. RESTRICT mencegah penghapusan atau perubahan data pada tabel induk yang berdampak pada tabel anak yang masih merujuk ke data yang di hapus atau di ubah.
 - Sementara CASCADE dengan secara otomatis menghapus atau mengubah data pada tabel anak yang merujuk ke data yang di apus atau di ubah pada tabel induk.
-- Kedua aturan tersebut memiliki kelebihan dan kekurangan msing-masing dan harus dipilih secara bijak sesuai dengan kebutuhan dan konteks penggunaannya agar dapat memastikan keutuhan data didalam sistem basis data.
+- Kedua aturan tersebut memiliki kelebihan dan kekurangan masing-masing dan harus dipilih secara bijak sesuai dengan kebutuhan dan konteks penggunaannya agar dapat memastikan keutuhan data didalam sistem basis data.
